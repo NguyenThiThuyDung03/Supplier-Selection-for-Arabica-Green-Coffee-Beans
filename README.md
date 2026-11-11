@@ -62,7 +62,7 @@ Under the Base scenario, the two methods agree on the top two suppliers but prod
 
 WSM rankings remain unchanged across the three scenarios. TOPSIS shows some movement among the middle-ranked suppliers, particularly S03, S04, and S06.
 
-The results support selecting S01 for further supplier evaluation, with S05 as an alternative. This recommendation applies only to the simulated data and assumptions used in the project.
+The results support selecting S01 for the hypothetical purchase, with S05 as the backup option. This recommendation applies only to the simulated data and assumptions used in the project.
 
 ### Base Scenario Ranking Comparison
 
@@ -89,4 +89,4 @@ The analysis was developed in Google Colab using Python.
 3. Upload the input workbook to the Colab session.
 4. Run the notebook cells to reproduce the screening, WSM, and TOPSIS rankings, sensitivity analysis, and exported results.
 
-The full reference list, evaluation assumptions, and methodological details are provided in the [Analysis Report](reports/Supplier_Selection_Report.pdf).
+The full reference list, evaluation assumptions, and methodological details are provided in the [Analysis Report](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Report_Final.pdf).
