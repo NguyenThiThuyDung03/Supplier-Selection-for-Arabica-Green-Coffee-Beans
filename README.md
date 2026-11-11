@@ -70,23 +70,23 @@ The results support selecting S01 for the hypothetical purchase, with S05 as the
 
 For the complete results and discussion, see the [Analysis Report](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Report_Final.pdf).
 
-## 5. Repository Structure
+## 5. Repository Files
 
-| Folder | Contents |
+| File | Contents |
 |---|---|
-| `data/` | [Excel Input dataset](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Inputdata.xlsx) with supplier information, parameters, and supporting assumptions |
-| `notebooks/` | [Python analysis notebook](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_PythonAnalysis.ipynb) |
-| `results/` | [Excel results workbook](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Results.xlsx) containing screening, rankings, and sensitivity results |
-| `figures/` | [WSM and TOPSIS ranking comparison figure](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Supplier%20Ranking%20Comparison%20WSM%20vs%20TOPSIS.png) |
-| `reports/` | [Analysis Report](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Report_Final.pdf) |
+| [Input dataset](Arabica_Supplier_Selection_Inputdata.xlsx) | Supplier data, parameters, and supporting assumptions |
+| [Python analysis notebook](Arabica_Supplier_Selection_PythonAnalysis.ipynb) | Supplier screening, WSM, TOPSIS, and sensitivity analysis |
+| [Results workbook](Arabica_Supplier_Selection_Results.xlsx) | Screening, rankings, and sensitivity results |
+| [Ranking comparison figure](Supplier%20Ranking%20Comparison%20WSM%20vs%20TOPSIS.png) | Base-scenario WSM and TOPSIS rankings |
+| [Analysis Report](Arabica_Supplier_Selection_Report_Final.pdf) | Full methodology, results, and discussion |
 
 ## 6. How to Reproduce the Analysis
 
 The analysis was developed in Google Colab using Python.
 
-1. Download the input Excel workbook from the `Arabica_Supplier_Selection_Inputdata` folder.
-2. Open the notebook in the `Arabica_Supplier_Selection_PythonAnalysis` folder using Google Colab.
-3. Upload the input workbook to the Colab session.
-4. Run the notebook cells to reproduce the screening, WSM, and TOPSIS rankings, sensitivity analysis, and exported results.
+1. Download the input Excel workbook linked above.
+2. Open the Python analysis notebook in Google Colab.
+3. Run the first cell and upload the input workbook when prompted.
+4. Run the remaining cells to reproduce the supplier screening, WSM and TOPSIS rankings, and sensitivity analysis.
 
-The full reference list, evaluation assumptions, and methodological details are provided in the [Analysis Report](https://github.com/NguyenThiThuyDung03/Supplier-Selection-for-Arabica-Green-Coffee-Beans/blob/main/Arabica_Supplier_Selection_Report_Final.pdf).
+The full reference list, evaluation assumptions, and methodological details are provided in the [Analysis Report](Arabica_Supplier_Selection_Report_Final.pdf).
